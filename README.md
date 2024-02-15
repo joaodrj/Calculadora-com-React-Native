@@ -1,7 +1,9 @@
-# Novo Projeto React Native
-Calculadora inspirada na calculadora do Xiami.
+# Calculadora em React Native
+
 ![Tela da calculadora](https://github.com/joaodrj/Calculadora-com-React-Native/blob/main/image.png "Tela do aplicativo")
 
+
+Calculadora inspirada na calculadora do Xiami.
 
 Este é um novo projeto em [**React Native**](https://reactnative.dev), inicializado com o uso de [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
