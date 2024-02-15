@@ -13,33 +13,33 @@ const initialState = {
 
 
 export default class App extends Component {
-    state = {
-        displayValue: '0'
-    }
+    state = { ...initialState}
 
     addDigit = n => {
         const clearDisplay = this.state.displayValue === '0'
             || this.state.clearDisplay
-
+        
+        
         if (n === '.' && !clearDisplay &&  this.state.displayValue.includes('.')) {
             return;
-        }
-
-        const currentValue = clearDisplay ? '' : this.state.displayValue
+        }     
+        const currentValue = clearDisplay ? '' : this.state.displayValue    
         const displayValue = currentValue + n
         this.setState({ displayValue, clearDisplay: false})
-
+        
         if (n !== '.') {
+            
             const newValue = parseFloat(displayValue)
             const values = [...this.state.values]
             values[this.state.current] = newValue
-            this.setState({ values })
+            this.setState({ values })      
         }
     }
-
+    
     clearMemory = n => {
         this.setState({ ...initialState })
     }
+    
 
     setOperation = operation => {
         if (this.state.current === 0) {
