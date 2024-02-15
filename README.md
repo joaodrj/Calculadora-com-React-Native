@@ -1,7 +1,9 @@
 # Calculadora em React Native
+
 <p align="center">
-![Tela da calculadora](https://github.com/joaodrj/Calculadora-com-React-Native/blob/main/image.png "Tela do aplicativo")
+  <img src="https://github.com/joaodrj/Calculadora-com-React-Native/blob/main/image.png" alt="designer da calculadora da xiami" title="Tela da calculadora"/>
 </p>
+
 
 Calculadora inspirada na calculadora do Xiami.
 
